@@ -14,7 +14,12 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    $page = 'contact';
+    $page = 'home';
 
     return view('main.pages.index', compact(['page']));
+});
+
+Route::get('/admin', function () {
+
+    return 'admin panel';
 });

@@ -10,10 +10,10 @@
                     <a class="nav-link @if($page == 'home') active @endif" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link @if($page == 'about') active @endif" href="#">Features</a>
+                    <a class="nav-link @if($page == 'about') active @endif" href="#">Parceiros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link @if($page == 'contact') active @endif" href="#">Pricing</a>
+                    <a class="nav-link @if($page == 'contact') active @endif" href="#">Sobre Nós</a>
                 </li>
             </ul>
         </div>
